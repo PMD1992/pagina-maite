@@ -1,0 +1,38 @@
+body {
+    background-color: #bf7338;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 4px red;
+    border-color: red;
+    border: 30px solid transparent;
+font-size: 20px;
+border-image: url("./132d0b11f96dcffaa700966900312a52.jpg") 150 round;
+}
+
+
+button {
+    background-color: #601b37;
+    color: white;
+    font-family:  "Kanit", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 70%;
+}
